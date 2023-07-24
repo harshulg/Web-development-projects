@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+  padding: 0;
+}
+nav {
+    position:fixed;
+    width: 100%;
+    background-color: rgb(255, 105, 180);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  

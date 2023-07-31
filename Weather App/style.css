@@ -9,6 +9,12 @@ body{
     background-color: #222;
     
 }
+
+.blur {
+    filter: blur(4px);
+}
+
+
 .card {
     width: 90%;
     max-width: 470px;
@@ -25,3 +31,67 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.search-button button{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 16px;
+    border: none;
+    outline: none;
+
+}
+
+.search-button button:hover{
+    background-color: rgba(240,240,240,.60);
+}
+
+.weather-icon {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.search-icon{
+    display: flex;
+    width: 25px;
+    height: 25px;
+   
+}
+
+.search>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    width: auto;
+    height: 32px;
+    width: 20rem;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    text-indent: 0.5rem;
+
+
+
+}
+
+.other-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.unblur {
+    filter: blur(0);
+}
+
+

@@ -26,7 +26,6 @@ async function checkWeather(){
     humidity.innerHTML = data.current.humidity + '%';
     wind.innerHTML = data.current.wind_kph + ' kmph';
     iconImage.src = data.current.condition.icon
-    container.classList.remove('blur')
 
 }
 

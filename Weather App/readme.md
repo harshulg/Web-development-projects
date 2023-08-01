@@ -2,7 +2,8 @@ Sure! Below is an example `README.md` file for your weather app:
 
 # Weather App
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](![image](https://github.com/harshulg/Web-development-projects/assets/67511028/c3c1aa84-09d8-49d9-a1cc-1c0b434c475b)
+)
 
 ## Overview
 

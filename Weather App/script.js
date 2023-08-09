@@ -16,13 +16,16 @@ const wind = document.querySelector('[data-wind-speed]');
 const iconImage = document.getElementById('iconImage');
 var container = document.getElementById('#container');
 
+
+
+
 async function checkWeather(){
     url = `https://api.weatherapi.com/v1/current.json?q=${city}&key=${key}`
     const response = await fetch(url);
     var data = await response.json();
     console.log(data);
     temp.innerHTML = data.current.temp_c + ' °C'
-    CityName.innerHTML = data.location.name;
+    CityName.innerHTML = data.location.name + ',' + data.location.country;
     humidity.innerHTML = data.current.humidity + '%';
     wind.innerHTML = data.current.wind_kph + ' kmph';
     iconImage.src = data.current.condition.icon

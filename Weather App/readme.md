@@ -2,7 +2,8 @@ Sure! Below is an example `README.md` file for your weather app:
 
 # Weather App
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](![image](https://github.com/harshulg/Web-development-projects/assets/67511028/c3c1aa84-09d8-49d9-a1cc-1c0b434c475b)
+)
 
 ## Overview
 
@@ -12,13 +13,12 @@ The Weather App is a simple web application that provides real-time weather info
 
 - Search for weather information by city name.
 - Display current weather conditions, temperature, humidity, and wind speed.
-- View weather forecasts for the next few days.
 - Dynamic background and weather icons based on the current weather conditions.
 
 ## Technologies Used
 
 - HTML, CSS, and JavaScript for the frontend.
-- Weather API (replace with the name of the specific weather API you used).
+- Weather API : https://www.weatherapi.com/
 
 ## How to Use
 
@@ -31,28 +31,12 @@ The Weather App is a simple web application that provides real-time weather info
 
 The Weather App uses the following weather API:
 
-- [Name of Weather API](https://example-api.com) (Replace with the actual link to the API documentation)
+- https://www.weatherapi.com/docs/
 
 To use the Weather API, you may need to sign up for an API key and include it in the API request for authentication purposes.
 
 ## Credits
+- Weather icons from Weather API : https://www.weatherapi.com/
 
-- Background images from [Unsplash](https://unsplash.com).
-- Weather icons from [Iconfinder](https://www.iconfinder.com).
-- Weather data provided by [Weather API Name](https://example-api.com).
-
-## Disclaimer
-
-This Weather App is intended for educational purposes and is not for commercial use. The weather data displayed in this app may not be 100% accurate and should not be used for critical decision-making.
-
-## License
-
-The Weather App is open-source and released under the [MIT License](LICENSE).
 
 Feel free to modify, enhance, or distribute this project as per the terms of the license.
-
----
-
-Replace the placeholders (`[Name of Weather API]`, `https://example-api.com`, `screenshot.png`, etc.) with actual links, names, and file paths relevant to your specific project. Make sure to include any credits and attributions for images, icons, and APIs used in your project.
-
-The `README.md` file is a crucial part of your project's documentation, and it helps users understand how to use your app, what technologies are involved, and how to contribute or modify the code. Keep it concise, informative, and up-to-date.
